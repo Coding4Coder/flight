@@ -18,7 +18,10 @@
 > npm install --save @fortawesome/free-solid-svg-icons
 
 > npm install --save @fortawesome/react-fontawesome
+ 
+ add bootstrap link into index.js
 
+ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 > npm start
 
