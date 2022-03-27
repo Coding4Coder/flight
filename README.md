@@ -1,5 +1,27 @@
 # Getting Started with Create React App
 
+
+> npx create-react-app flight
+> npm i sass
+> npm i bootstrap
+> npm i react-router-dom
+> npm i axios
+> npm i json-server
+> npm i --save @fortawesome/fontawesome-svg-core
+> npm install --save @fortawesome/free-solid-svg-icons
+> npm install --save @fortawesome/react-fontawesome
+
+> npm start
+
+# create fake json server
+
+>>> create db.json file on root
+>>> add db.json file into package.json in "script"
+  > "json-server": "json-server --watch db.json --port 5000",
+>> now open terminal going into flight main folder and run 
+> npm run json-server
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

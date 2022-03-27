@@ -1,0 +1,59 @@
+.top-header{
+    background: rgb(144, 133, 245);
+    color: azure;
+    font-size: 1.2rem;
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+.pad{
+    padding: 2rem !important;
+}
+.pad-b{
+    padding-bottom: 2rem !important;
+}
+.mar-r{
+    margin-right: 2rem !important;
+}
+table tr{
+    background: rgb(246, 244, 244);
+    td, th{
+        text-align: center;
+    }
+}
+.faIcon{
+    margin: 2px 10px;
+}
+.red{
+    color: red;
+}
+.blue{
+    color:rgb(0, 153, 158)
+}
+.active{
+    background: rgb(219, 253, 250) !important;
+    color: rgb(5, 82, 82)  !important;
+    border: none  !important;
+    box-shadow: none !important;
+}
+.form-container{
+    background: rgb(241, 241, 241);
+    width: 75%;
+    min-height: 5rem;
+    margin: 1rem auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    text-align: center;
+    padding: 2.5rem;
+
+    input {
+        width: 100%;
+        box-sizing: border-box;
+        height: 55px;
+        border-radius: 5px;
+        padding: 1rem;
+        margin: .5rem;
+        border: 1px solid rgb(206, 205, 205);
+    }
+}

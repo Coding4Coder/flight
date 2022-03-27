@@ -1,0 +1,28 @@
+{
+    "flightsinfo": [
+      {
+        "id": 1,
+        "flightname": "Air India",
+        "country": "India",
+        "status": "Active"
+      },
+      {
+        "id": 2,
+        "flightname": "France Airwys",
+        "country": "France",
+        "status": "Active"
+      },
+      {
+        "id": 3,
+        "flightname": "Dragon Fly",
+        "country": "China",
+        "status": "Deactive"
+      },
+      {
+        "flightname": "Delta",
+        "country": "UK",
+        "status": "Inactive",
+        "id": 5
+      }
+    ]
+  }
