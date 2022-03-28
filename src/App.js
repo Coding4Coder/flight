@@ -24,6 +24,7 @@ function App() {
         <Route path="/flight/view/:id" element={ <ViewFlight /> } />
         <Route path="/flight/edit/:id" element={ <EditFlight /> } />
       </Routes>
+      <Footer />
       </BrowserRouter>
       
     </>

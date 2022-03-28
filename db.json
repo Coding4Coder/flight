@@ -16,7 +16,7 @@
       "id": 3,
       "flightname": "Dragon Fly",
       "country": "China",
-      "status": "Inactive"
+      "status": "In-active"
     },
     {
       "flightname": "Delta",
@@ -25,7 +25,7 @@
       "id": 5
     },
     {
-      "flightname": "IndiaGo",
+      "flightname": "Go Air",
       "country": "India",
       "status": "Active",
       "id": 6
@@ -35,6 +35,12 @@
       "country": "USA",
       "status": "In-active",
       "id": 7
+    },
+    {
+      "flightname": "Kabool Air",
+      "country": "Afganisthan",
+      "status": "In-active",
+      "id": 8
     }
   ]
 }

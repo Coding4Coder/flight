@@ -21,8 +21,14 @@ const EditFlight = () => {
         setFlight({...flight, [e.target.name]:e.target.value});
     }
 
+    //update the data on submit 
+    const onSubmitHandler = async (e) => {
+        e.preventDefault();
+        await axios.put(`http://localhost:5000/flightsinfo/${id}`, flight);
+        navigate("/")
+    }
    
-// first load the perticular data associated with the ID on the edit btn click
+    // first load the perticular data associated with the ID on the edit btn click
   const loadFlightData = async () => {
       let result = await axios.get(`http://localhost:5000/flightsinfo/${id}`);
       setFlight(result.data);
@@ -37,7 +43,7 @@ const EditFlight = () => {
      <PageTitle pageTitle="Update Flight" />
 
       <div className="main-container text-center">
-          <form >
+          <form onSubmit={ onSubmitHandler }>
               <input 
               type="text"
               placeholder="Add Flight Name"
