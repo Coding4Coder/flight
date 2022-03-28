@@ -98,3 +98,37 @@ table tr{
 .icon-size-m{
     font-size: 2rem !important;
 }
+.faIconBox{
+    svg{
+        margin: 2px 10px !important;
+    }
+    .red{
+        color: red;
+    }
+    .green{
+        color:rgb(0, 153, 158)
+    }
+    .blue{
+        color:rgb(58, 10, 170)
+    }
+}
+.btn-size-l{
+    width: 20rem !important;
+    margin: 0 auto;
+}
+.btn-size-m{
+    width: 10rem !important;
+    margin: 0 auto;
+}
+.min-h{
+    min-height: 17rem;
+    position: relative;
+}
+.dv-center-h-v {
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }

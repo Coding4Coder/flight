@@ -37,6 +37,9 @@
 
 > npm run json-server
 
+# get the table from bootstrap
+ https://getbootstrap.com/docs/5.0/content/tables/
+ 
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
