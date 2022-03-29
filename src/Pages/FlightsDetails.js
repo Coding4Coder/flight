@@ -5,6 +5,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faEye, faTrash, faFileEdit} from "@fortawesome/free-solid-svg-icons";
 import PageTitle from "../Components/PageTitle";
 import { NavLink, useParams} from "react-router-dom";
+import Breadcrumb from "../Components/Breadcrumb";
 
 const FlightsDetails = () => {
   const { id } = useParams();
@@ -34,7 +35,7 @@ const FlightsDetails = () => {
 
   return (
     <div className="container-fluid pad">
-    
+      <Breadcrumb root={"Home /"} parent={"Flight Details"}  /> 
       <PageTitle pageTitle={"Flight Details"} />
       <div className="row txt-center g-0">
         <NavLink className="btn btn-primary btn-size-l" to="/flight/add/">Add Flight</NavLink>

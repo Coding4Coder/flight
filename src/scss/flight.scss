@@ -2,7 +2,7 @@
     position: relative;
 }
 .top-header{
-    background: rgb(144, 133, 245);
+    background: #005da6;
     color: azure;
     font-size: 1.2rem;
     padding: 1rem;
@@ -131,4 +131,12 @@ table tr{
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+  }
+  .breadcrumb{
+      width: 75%;
+      margin: .1rem auto;
+      span{
+          font-size: 1rem;
+          padding: 0 .1rem;
+      }
   }

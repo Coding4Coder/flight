@@ -1,10 +1,11 @@
 import React from "react";
 import PageTitle from "../Components/PageTitle";
+import Breadcrumb from "../Components/Breadcrumb";
 
 const About = () => {
   return (
     <div className="container-fluid pad">
-  
+    <Breadcrumb root={"Home /"} parent={"About Flight Center"} /> 
       <PageTitle pageTitle={"About - Flight Center"} />
       <div className="main-container">
         <p>

@@ -7,10 +7,12 @@ import {
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 import PageTitle from "../Components/PageTitle";
+import Breadcrumb from "../Components/Breadcrumb";
 
 const Contact = () => {
   return (
     <div className="container-fluid pad">
+    <Breadcrumb root={"Home /"} parent={"Contact Flight Center"} /> 
       <PageTitle pageTitle={"Contact - Flight Center"} />
       <div className="main-container">
         <h4 className="display-6 text-center pad-b">

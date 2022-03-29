@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import PageTitle from '../../Components/PageTitle';
 import "../../scss/flight.scss";
+import Breadcrumb from '../../Components/Breadcrumb';
 
 const EditFlight = () => {
 
@@ -40,6 +41,7 @@ const EditFlight = () => {
 
   return (
     <div className="container-fluid pad">
+     <Breadcrumb root={"Home"} parent={"Flight"} children={"Update Flight"} slash={"/"} /> 
      <PageTitle pageTitle="Update Flight" />
 
       <div className="main-container text-center">

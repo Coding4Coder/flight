@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import Breadcrumb from '../../Components/Breadcrumb';
 import PageTitle from '../../Components/PageTitle';
 import "../../scss/flight.scss";
 
@@ -30,7 +31,8 @@ const AddFlight = () => {
 
   return (
     <div className="container-fluid pad">
-     <PageTitle pageTitle="Add Flight" />
+        <Breadcrumb root={"Home"} parent={"Flight"} children={"Add Flight"} slash={"/"} /> 
+       <PageTitle pageTitle="Add Flight" />
 
       <div className="main-container text-center">
           <form onSubmit={ formSubmitHandler }>

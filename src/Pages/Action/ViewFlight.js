@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import PageTitle from "../../Components/PageTitle";
 import "../../scss/flight.scss";
+import Breadcrumb from "../../Components/Breadcrumb";
 
 const ViewFlight = () => {
   const { id } = useParams();
@@ -32,6 +33,7 @@ const ViewFlight = () => {
 
   return (
     <div className="container-fluid pad">
+    <Breadcrumb root={"Home"} parent={"Flight"} children={"View Flight"} slash={"/"} /> 
       <PageTitle pageTitle="View Flight" />
 
       <div className="main-container text-center min-h">
