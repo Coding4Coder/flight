@@ -3,7 +3,7 @@ import "../scss/flight.scss";
 
 const PageTitle = (props) => {
   return (
-    <h2 className="display-6 text-center pad-b">
+    <h2 className="display-6 text-center pad-b heading-color">
         {props.pageTitle}
     </h2>
   )

@@ -1,12 +1,6 @@
 {
   "flightsinfo": [
     {
-      "id": 1,
-      "flightname": "Air India",
-      "country": "India",
-      "status": "Active"
-    },
-    {
       "id": 2,
       "flightname": "France Airwys",
       "country": "France",
@@ -29,6 +23,12 @@
       "country": "USA",
       "status": "In-active",
       "id": 7
+    },
+    {
+      "flightname": "Spice Jet",
+      "country": "India",
+      "status": "Active",
+      "id": 8
     }
   ]
 }

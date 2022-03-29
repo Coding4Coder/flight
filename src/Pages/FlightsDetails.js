@@ -42,7 +42,8 @@ const FlightsDetails = () => {
         </div>
       
       <div className="main-container">
-        <table class="table table-striped table-hover">
+        <div className="table-responsive">
+        <table class="table align-middle table-striped table-hover">
           <thead>
             <tr>
               <th scope="col">#</th>
@@ -78,6 +79,7 @@ const FlightsDetails = () => {
             }
           </tbody>
         </table>
+        </div>
       </div>
     </div>
   );
