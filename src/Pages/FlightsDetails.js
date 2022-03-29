@@ -4,9 +4,10 @@ import axios from "axios";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faEye, faTrash, faFileEdit} from "@fortawesome/free-solid-svg-icons";
 import PageTitle from "../Components/PageTitle";
-import { NavLink} from "react-router-dom";
+import { NavLink, useParams} from "react-router-dom";
 
 const FlightsDetails = () => {
+  const { id } = useParams();
   const [flightData, setFlightData] = useState([]);
 
   const loadFlightData = async () => {
@@ -19,6 +20,13 @@ const FlightsDetails = () => {
     }
   };
   // console.log(flightData);
+
+  // delete data
+
+  const deleteData = async (id) => {
+   await axios.delete(`http://localhost:5000/flightsinfo/${id}`);
+    loadFlightData();
+  }
 
   useEffect(() => {
     loadFlightData();
@@ -60,7 +68,7 @@ const FlightsDetails = () => {
                   <FontAwesomeIcon className="green" icon={faFileEdit} />
                   </NavLink>
 
-                  <FontAwesomeIcon className="red" icon={faTrash} />
+                  <FontAwesomeIcon className="red" icon={faTrash} onClick={() => deleteData(flight.id) } />
                 </td>
               </tr>
 

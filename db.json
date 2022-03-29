@@ -25,22 +25,10 @@
       "id": 5
     },
     {
-      "flightname": "Go Air",
-      "country": "India",
-      "status": "Active",
-      "id": 6
-    },
-    {
-      "flightname": "Pan America",
+      "flightname": "Pan America Inc",
       "country": "USA",
       "status": "In-active",
       "id": 7
-    },
-    {
-      "flightname": "Kabool Air",
-      "country": "Afganisthan",
-      "status": "In-active",
-      "id": 8
     }
   ]
 }
